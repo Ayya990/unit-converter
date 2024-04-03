@@ -2,7 +2,7 @@
 body{
     padding:0;
     margin:0;
-    background-color: rgba(5, 5, 5, 0.964);
+    background-color: rgba(15, 13, 13, 0.964);
     font-family: 'Poppins',sans-serif;
     color: #ffffff;
     outline: none;
@@ -10,6 +10,36 @@ body{
     overflow: hidden;
     letter-spacing: 0.5px;
 }
+.nav__link{
+    display: none;
+    color: #2fc9e2;
+}
+
+.nav__link {
+    position: fixed;
+    top: 5rem;
+    left: 0;
+    width: 100%; 
+    background-color: lightblue;
+    z-index: 1000; /* Assurez-vous que le menu est au-dessus des autres éléments */
+}
+
+.nav__link a {
+    display: block;
+    text-align: center;
+    padding: 10px 0;
+    color: #c01a1a; /* Couleur du texte des liens */
+    font-weight: bold;
+    text-transform: uppercase;
+    font-size: 1.2rem;
+    text-decoration: none;
+}
+
+.nav__link a:hover {
+    color: #555555; /* Couleur du texte des liens au survol */
+}
+
+  
 .background .shape{
     height: 200px;
     width: 200px;

@@ -20,43 +20,43 @@ function myResult(){
 
     if(inputTypeValue === "liter" && resultTypeValue==="liter"){
        
-        result.value = Number(input.value); // set answer to the result box
+        result.value = Number(input.value);
     }
 
     else if(inputTypeValue === "liter" && resultTypeValue==="centimeter"){
        
-        result.value = Number(input.value) * 1000; // set answer to the result box
+        result.value = Number(input.value) * 1000; 
     }
 
     else if(inputTypeValue === "liter" && resultTypeValue==="meter"){
         
-        result.value = Number(input.value)/1000 ; // set answer to the result box    
+        result.value = Number(input.value)/1000 ;     
     }
 
     else if(inputTypeValue === "liter" && resultTypeValue==="mililiter"){
         
-        result.value = Number(input.value) * 1000; // set answer to the result box
+        result.value = Number(input.value) * 1000;
     }
 
     
     else if(inputTypeValue === "centimeter" && resultTypeValue==="liter"){
        
-        result.value = Number(input.value) * 0.001; // set answer to the result box
+        result.value = Number(input.value) * 0.001; 
     }
 
     else if(inputTypeValue === "centimeter" && resultTypeValue==="centimeter"){
        
-        result.value = Number(input.value); // set answer to the result box
+        result.value = Number(input.value);
     }
 
     else if(inputTypeValue === "centimeter" && resultTypeValue==="meter"){
         
-        result.value = Number(input.value) / 1000000 ; // set answer to the result box    
+        result.value = Number(input.value) / 1000000 ;    
     }
 
     else if(inputTypeValue === "centimeter" && resultTypeValue==="mililiter"){
         
-        result.value = Number(input.value); // set answer to the result box
+        result.value = Number(input.value); 
     }
 
 
@@ -64,22 +64,22 @@ function myResult(){
         
     else if(inputTypeValue === "mililiter" && resultTypeValue==="liter"){
        
-        result.value = Number(input.value) * 0.001; // set answer to the result box
+        result.value = Number(input.value) * 0.001;
     }
 
     else if(inputTypeValue === "mililiter" && resultTypeValue==="centimeter"){
        
-        result.value = Number(input.value); // set answer to the result box
+        result.value = Number(input.value);
     }
 
     else if(inputTypeValue === "mililiter" && resultTypeValue==="meter"){
         
-        result.value = Number(input.value) / 1000000 ; // set answer to the result box    
+        result.value = Number(input.value) / 1000000 ;   
     }
 
     else if(inputTypeValue === "mililiter" && resultTypeValue==="mililiter"){
         
-        result.value = Number(input.value); // set answer to the result box
+        result.value = Number(input.value);
     }
 
 
@@ -88,22 +88,22 @@ function myResult(){
         
     else if(inputTypeValue === "meter" && resultTypeValue==="liter"){
        
-        result.value = Number(input.value) * 1000; // set answer to the result box
+        result.value = Number(input.value) * 1000; 
     }
 
     else if(inputTypeValue === "meter" && resultTypeValue==="centimeter"){
        
-        result.value = Number(input.value) * 1000000; // set answer to the result box
+        result.value = Number(input.value) * 1000000; 
     }
 
     else if(inputTypeValue === "meter" && resultTypeValue==="meter"){
         
-        result.value = Number(input.value); // set answer to the result box    
+        result.value = Number(input.value);   
     }
 
     else if(inputTypeValue === "meter" && resultTypeValue==="mililiter"){
         
-        result.value = Number(input.value) * 1000000; // set answer to the result box
+        result.value = Number(input.value) * 1000000;
     }
 
 

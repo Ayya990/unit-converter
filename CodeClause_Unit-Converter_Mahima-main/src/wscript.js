@@ -20,68 +20,66 @@ function myResult(){
 
     if(inputTypeValue === "kilogram" && resultTypeValue==="kilogram"){
        
-        result.value = Number(input.value); // set answer to the result box
+        result.value = Number(input.value); 
     }
 
 
     else if(inputTypeValue === "kilogram" && resultTypeValue==="gram"){
        
-        result.value = Number(input.value) * 1000; // set answer to the result box
+        result.value = Number(input.value) * 1000; 
     }
 
     else if(inputTypeValue === "kilogram" && resultTypeValue==="miligram"){
         
-        result.value = Number(input.value) *1000000 ; // set answer to the result box    
+        result.value = Number(input.value) *1000000 ;   
     }
 
     else if(inputTypeValue === "kilogram" && resultTypeValue==="pounds"){
         
-        result.value = Number(input.value) * 2.2; // set answer to the result box
+        result.value = Number(input.value) * 2.2;
     }
 
 
     else if(inputTypeValue === "gram" && resultTypeValue==="kilogram"){
        
-        result.value = Number(input.value)/1000; // set answer to the result box
-    }
+        result.value = Number(input.value)/1000;}
 
     else if(inputTypeValue === "gram" && resultTypeValue==="gram"){
        
-        result.value = Number(input.value); // set answer to the result box
+        result.value = Number(input.value); 
     }
 
     else if(inputTypeValue === "gram" && resultTypeValue==="miligram"){
         
-        result.value = Number(input.value) *1000 ; // set answer to the result box    
+        result.value = Number(input.value) *1000 ;  
     }
 
     else if(inputTypeValue === "gram" && resultTypeValue==="pounds"){
         
-        result.value = Number(input.value) * 0.0022; // set answer to the result box
-    }
+        result.value = Number(input.value) * 0.0022;}
 
 
 
     else if(inputTypeValue === "miligram" && resultTypeValue==="kilogram"){
        
-        result.value = Number(input.value)/1000000; // set answer to the result box
+        result.value = Number(input.value)/1000000; 
     }
    
 
     else if(inputTypeValue === "miligram" && resultTypeValue==="gram"){
        
-        result.value = Number(input.value)/1000; // set answer to the result box
+        result.value = Number(input.value)/1000;
     }
 
     else if(inputTypeValue === "miligram" && resultTypeValue==="miligram"){
         
-        num = Number(input.value) ; // set answer to the result box  
+        num = Number(input.value) ; 
         result.value = num.toFixed(2);  
     }
 
     else if(inputTypeValue === "miligram" && resultTypeValue==="pounds"){
         
-        num = Number(input.value)/453592.37; // set answer to the result box
+        num = Number(input.value)/453592.37;
         result.value = num.toFixed(2);
     }
 
@@ -90,32 +88,29 @@ function myResult(){
    
     else if(inputTypeValue === "pounds" && resultTypeValue==="kilogram"){
        
-        num = Number(input.value)* 0.45359237 ; // set answer to the result box
+        num = Number(input.value)* 0.45359237 ; 
         result.value = num.toFixed(2);
     }
 
     else if(inputTypeValue === "pounds" && resultTypeValue==="gram"){
        
-        num = Number(input.value)*453.592; // set answer to the result box
+        num = Number(input.value)*453.592; 
         result.value = num.toFixed(2);
     }
 
     else if(inputTypeValue === "pounds" && resultTypeValue==="miligram"){
         
-        num = Number(input.value)*453,592.37 ; // set answer to the result box 
+        num = Number(input.value)*453,592.37 ;  
         result.value = num.toFixed(2);   
     }
 
     else if(inputTypeValue === "pounds" && resultTypeValue==="pounds"){
         
-        result.value = Number(input.value); // set answer to the result box
+        result.value = Number(input.value); 
     
     }
    
 
     
+    }
 
-
-
-    
-}
